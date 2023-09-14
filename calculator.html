@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+    <script src="./calculator.js"></script>
+</head>
+<body>
+    <fieldset>
+        <h1>Calculator</h1>
+        <legend></legend>
+        <label for="first">First Number</label>
+        <br>
+        
+     <input type="number" name="first" id="first"/>
+    <br>
+    <br>
+    <label for="ope">operator:</label>
+    <br>
+    <select id="ope">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">x</option>
+        <option value="/">/</option>
+        <option value="%">%</option>
+    </select>
+    <br>
+    <br>
+    <label for="second">Second Number</label>
+<br>
+ <input type="number" name="second" id="second"/> 
+    <br>
+    <br>
+    <button onclick="cal()">Calculate</button>
+    <br>
+    <br>
+    <label for="res">Result:</label>
+    <input type="number" name="res" id="res" readonly=""/>   
+    <br>
+    <br>
+</fieldset>
+</body>
+</html>
